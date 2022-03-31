@@ -1,0 +1,9 @@
+ORG $1000
+move.l #4095, d1
+move #41, d2
+move #33, d3
+move.w #29041, d0
+divs d1, d0
+move.w d0, d4
+swap d0
+END 

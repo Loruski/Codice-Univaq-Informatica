@@ -1,0 +1,29 @@
+00001000 Starting Address
+Assembler used: EASy68K Editor/Assembler v5.16.01
+Created On: 3/30/2022 11:15:14 PM
+
+00000000                             1  *-----------------------------------------------------------
+00000000                             2  * Title      :
+00000000                             3  * Written by :
+00000000                             4  * Date       :
+00000000                             5  * Description:
+00000000                             6  *-----------------------------------------------------------
+00001000                             7      ORG    $1000
+00001000                             8  START:                  ; first instruction of program
+00001000                             9  
+Line 10 ERROR: Invalid syntax
+00001000                            10  move #10, d0
+00001000  FFFF FFFF                 11      SIMHALT             ; halt simulator
+00001004                            12  
+00001004                            13  * Put variables and constants here
+00001004                            14  
+00001004                            15      END    START        ; last line of source
+
+1 error detected
+No warnings generated
+
+
+SYMBOL TABLE INFORMATION
+Symbol-name         Value
+-------------------------
+START               1000

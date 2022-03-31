@@ -1,0 +1,73 @@
+00000000 Starting Address
+Assembler used: EASy68K Editor/Assembler v5.16.01
+Created On: 3/29/2022 11:34:50 AM
+
+00000000                             1  *-----------------------------------------------------------
+00000000                             2  * Title      :
+00000000                             3  * Written by :
+00000000                             4  * Date       :
+00000000                             5  * Description:
+00000000                             6  *-----------------------------------------------------------
+00000000                             7  START
+00001000                             8      ORG    $1000
+00001000                             9              ; first instruction of program
+00001000                            10  
+Line 11 ERROR: Invalid syntax
+00001000                            11  MOVE.L #4095, D1
+Line 12 ERROR: Invalid syntax
+00001000                            12  move #41, d2
+Line 13 ERROR: Invalid syntax
+00001000                            13  move #33, d3
+Line 14 ERROR: Invalid syntax
+00001000                            14  move.w #29041, d0
+Line 15 ERROR: Invalid syntax
+00001000                            15  divu d1, d0
+Line 16 ERROR: Invalid syntax
+00001000                            16  move.w d0, d5
+Line 17 ERROR: Invalid syntax
+00001000                            17  move d5,d4
+Line 18 ERROR: Invalid syntax
+00001000                            18  muls d3,d4
+Line 19 ERROR: Invalid syntax
+00001000                            19  addi #113, d3
+Line 20 ERROR: Invalid syntax
+00001000                            20  move d3, d6
+Line 21 ERROR: Invalid syntax
+00001000                            21  divs #3, d6
+Line 22 ERROR: Invalid syntax
+00001000                            22  move.w d6, d5
+Line 23 ERROR: Invalid syntax
+00001000                            23  move.l d5, d6
+Line 24 ERROR: Invalid syntax
+00001000                            24  divs #5, d6
+Line 25 ERROR: Invalid opcode
+00001000                            25  swap d6
+Line 26 ERROR: Invalid syntax
+00001000                            26  move.w d6, d3
+Line 27 ERROR: Invalid syntax
+00001000                            27  muls #52, d2
+Line 28 ERROR: Invalid syntax
+00001000                            28  move d2, d6
+Line 29 ERROR: Invalid syntax
+00001000                            29  divs d3, d6
+Line 30 ERROR: Invalid syntax
+00001000                            30  move.w d6, d1
+Line 31 ERROR: Invalid opcode
+00001000                            31  swap d6
+Line 32 ERROR: Invalid syntax
+00001000                            32  move.w d6, d2
+00001000                            33  
+00001000  FFFF FFFF                 34      SIMHALT             ; halt simulator
+00001004                            35  
+00001004                            36  * Put variables and constants here
+00001004                            37  
+00001004                            38      END    START        ; last line of source
+
+22 errors detected
+No warnings generated
+
+
+SYMBOL TABLE INFORMATION
+Symbol-name         Value
+-------------------------
+START               0
